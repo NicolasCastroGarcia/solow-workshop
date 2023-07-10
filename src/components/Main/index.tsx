@@ -48,7 +48,7 @@ function Main() {
 
   return (
     <main>
-      {!user && <p>Conecta tu billeta para empezar</p>}
+      {!user && <p>Conecta tu billetera para empezar</p>}
       {user && (
         <>
           <p>Tu balance es: {user.balance}</p>
