@@ -51,8 +51,7 @@ function Main() {
       {!user && <p>Conecta tu billeta para empezar</p>}
       {user && (
         <>
-          <p>¡Hola {user.address}!</p>
-          <p>Tu balance es: {user.balance} ETH</p>
+          <p>Tu balance es: {user.balance}</p>
         </>
       )}
 
